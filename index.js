@@ -36,5 +36,5 @@ app.get('/vendas_rep', async (req, res) => {
 });
 
 app.listen(port1, () => {
-  console.log(`Servidor rodando em http://localhost:${port1}`);
+  console.log(`Servidor rodando em https://beckend-rouge.vercel.app${port1}`);
 });
